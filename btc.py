@@ -20,5 +20,5 @@ for priv in keys:
         pass
     except ValueError:
         print (r)
-        print r.text
+        print (r).text
 
