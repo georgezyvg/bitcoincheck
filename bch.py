@@ -19,7 +19,7 @@ for priv in keys:
     except (AssertionError, IndexError):
         pass
     except ValueError:
-        print r
-        print r.text
+        print (r)
+        print (r).text
 
 
